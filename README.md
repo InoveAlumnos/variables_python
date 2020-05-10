@@ -12,8 +12,8 @@ ejemplos_clase.py
 __Ejercicios para que el alumno desarrolle durante la clase__\
 ejercicios_clase.py
 
-__Ejercicios para que el alumne profundice sobre el tema durante la semana__\
-ejercicios_casa.py
+__Ejercicios para que el alumno profundice sobre el tema durante la semana__\
+ejercicios_practica.py
 
 # Consultas
 alumnos@inove.com.ar
