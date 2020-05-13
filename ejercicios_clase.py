@@ -27,7 +27,7 @@ def ej1():
     # Alumno: Imprima en pantalla los dos números decimales solicitados
     # print(....)
 
-    # Alumno: Calcule la suma, resta y multiplicación de los números ingresados
+    # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
     # numero_1, numero_2
     # Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
     # El resultado de sumar 4 y 2 es 6
@@ -53,7 +53,7 @@ def ej2():
     # Alumno: Imprima en pantalla los dos números reales solicitados
     # print(....)
 
-    # Alumno: Calcule la suma, resta y multiplicación de los números ingresados
+    # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
     # numero_3, numero_4
     # Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
     # El resultado de sumar 4 y 2 es 6
@@ -68,10 +68,10 @@ def ej2():
 
 
 def ej3():
-    # Ejemplos varialbles de texto
+    # Ejemplos variables de texto
 
     # Ingrese primero su nombre y luego su apellido
-    # Capture ambos datos y imprima su nombre completo
+    # Capture ambos datos e imprima su nombre completo
     print('Ingrese su nombre/s:')
     nombre = str(input())
 
@@ -86,7 +86,7 @@ def ej3():
     # Imprimir la cantidad de letras que posee su nombre completo
 
 def ej3():
-    # Ejemplos varialbles de texto
+    # Ejemplos variables de texto
 
     # Ingrese tres palabras y arme un acrónimo con ellas
     # Si desea puede modificar el código para ingresar más palabras
@@ -102,9 +102,10 @@ def ej3():
 
     # De cada palabra debe tomar la primera letra y armar el acrónimo
     # Ejemplo: Alumbrado, barrido y limpieza --> ABL
+    # Imprimir el resultado en pantalla
 
 def ej4():
-    # Ejemplos varialbles de texto
+    # Ejemplos variables de texto
 
     # Ingrese dos palabras y arme combinaciones con ella
     print('Ingrese palabra 1:')
@@ -113,9 +114,9 @@ def ej4():
     print('Ingrese palabra 2:')
     palabra_2 = str(input())
 
-    # De la primera palabra tome las primeras tres letras
-    # De la segunda palabra tome las últimas tres letras
-    # Forma una nueva palabra con los recortes solicitados
+    # De la primera palabra tome las primeras tres letras, utilice el operador :
+    # De la segunda palabra tome las últimas tres letras, utilice el operador :
+    # Formar una nueva palabra con los recortes solicitados
     # Imprima en pantalla los resultados
 
 if __name__ == '__main__':
