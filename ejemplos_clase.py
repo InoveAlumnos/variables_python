@@ -90,7 +90,7 @@ def strings():
     direccion_2 = 'Córdoba, Argentina'
     direccion_3 = 'La Paz, Bolivia'
 
-    # Esayemos algunos casos de ejemplo con la primera direccion
+    # Ensayemos algunos casos de ejemplo con la primera direccion
     es_direccion_argentina = 'Argentina' in direccion_1   # es_direccion_argentina es un resultado tipo Bool (True,False)
     print(direccion_1,'es una dirección Argentina?',es_direccion_argentina)
 
@@ -113,14 +113,14 @@ def strings():
     es_direccion_argentina = pais_objetivo in direccion_3
     print(direccion_3,'es una dirección Argentina?',es_direccion_argentina)
 
-    # Una cadena de texto (string) está compuesto de Nº caracteres
+    # Una cadena de texto (string) está compuesta de Nº caracteres
     # ¿Cuántos caracteres tiene el Argentina?
     argentina_len = len(pais_objetivo)
     print(pais_objetivo,'tiene',argentina_len,'caracteres')
 
     # ¿Puedo acceder a cada uno de esos caracteres individualmente? Claro que si
 
-    # Accedo al caracter inicial, el índice siempre empieza an cero (0)
+    # Accedo al caracter inicial, el índice siempre empieza an cero [0]
     caracter_inicial = pais_objetivo[0] 
     print(caracter_inicial)
 
