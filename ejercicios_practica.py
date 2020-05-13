@@ -28,6 +28,7 @@ def ej1():
     
     - Para todos los casos se debe imprimir en pantalla el resultado aclarando
       la operación realizada en cada caso y con que números se ha realizado la operación
+      ej: La suma entre 4.2 y 6.5 es 10.7
 
     '''
 
@@ -43,10 +44,10 @@ def ej2():
 
     Finalmente el programa debe imprimir dos líneas de texto por separado
     - En una línea imprimir el nombre completo y el DNI, aclarando de que campo se trata cada uno
-            Ej: DNI:35205070,
+            Ej: Nombre Completo: Nombre Apellido , DNI:35205070,
     - En la segunda línea se debe imprimir el nombre completo, edad y altura de la persona
       Nuevamente debe aclarar el campo de cada uno, para el que lo lea entienda de que se
-      está hablando
+      está hablando.
 
     '''
 def ej3():
@@ -57,7 +58,8 @@ def ej3():
     si se ingresaran los dos nombres completos de sus padres.
     Dicha persona deberá tener los apellidos de ambos padres
 
-    - El programa debe consultar primero el nombre completo de la padre_1 y padre_2
+    - Primero el programa debe consultar el nombre completo del padre_1
+    - Luego el programa debe consultar el nombre completo del padre_2
     - Luego debe consultar el nombre del hijo/a
     - Debe extraer los apellidos de los padres
     - Luego formar el nombre completo del hijo/a utilizando los apellidos de sus padres
@@ -84,13 +86,13 @@ def ej4():
     '''
     Realice un programa que determine si una persona_2 es pariente de la persona_1
     Para facilitar el ejercicio solo ingresar un nombre y un apellido por persona
-    Ingresar dichhos datos como Nombre Apellido, es decir, primero el nombre y luego
+    Ingresar dichos datos como Nombre Apellido, es decir, primero el nombre y luego
     el apellido, separado por un espacio.
     - El programa debe consultar primero el nombre completo de la persona_1
     - Luego debe consultar el nombre completo de la persona_2
     - Debe extraer el apellido de la persona_2
-    - Luego preguntar si el nombre completo de la persona_1 contiene el apellido
-      de la persona_2
+    - Luego preguntar si apellido de la persona_2 está contenido en el nombre completo
+      de la persona_1
     - En caso de contenerlo, son parientes
     - Imprimir en pantalla el resultado
 
@@ -125,7 +127,8 @@ def ej5():
     - upper
     - capitalize
 
-    Puede buscar en internet como usar en Python estos métodos o referirse al siguiente link
+    Puede buscar en internet como usar en Python estos métodos.
+    Les dejamos un el siguiente link que posee casos de uso de algunos de ellos:
 
     Link de referencia:
     https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
