@@ -4,7 +4,7 @@ Tipos de variables [Python]
 Ejercicios de práctica
 ---------------------------
 Autor: Inove Coding School
-Version: 1.1
+Version: 1.2
  
 Descripcion:
 Programa creado para que practiquen los conocimietos adquiridos durante la semana
@@ -12,7 +12,7 @@ Programa creado para que practiquen los conocimietos adquiridos durante la seman
 
 __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
-__version__ = "1.1"
+__version__ = "1.2"
 
 def ej1():
     # Ejercicios de práctica con números
@@ -144,3 +144,4 @@ if __name__ == '__main__':
     #ej2()
     #ej3()
     #ej4()
+    #ej5()
