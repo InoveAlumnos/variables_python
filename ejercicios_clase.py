@@ -5,25 +5,27 @@ Ejercicios de clase
 ---------------------------
 Autor: Inove Coding School
 Version: 1.1
- 
+
 Descripcion:
-Programa creado para poner a prueba los conocimientos adquiridos durante la clase
+Programa creado para poner a prueba los conocimientos
+adquiridos durante la clase
 '''
 
 __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
 __version__ = "1.1"
 
+
 def ej1():
     # Ejercicios de práctica numérica
-    
+
     # Operadores con números decimales
     print('Ingrese el primer número decimal a operar:')
     numero_1 = int(input())
 
     print('Ingrese el segundo número decimal a operar:')
     numero_2 = int(input())
-    
+
     # Alumno: Imprima en pantalla los dos números decimales solicitados
     # print(....)
 
@@ -39,6 +41,7 @@ def ej1():
     # División
 
     # Multiplicación
+
 
 def ej2():
     # Ejercicios de práctica numérica
@@ -85,6 +88,7 @@ def ej3():
 
     # Imprimir la cantidad de letras que posee su nombre completo
 
+
 def ej3():
     # Ejemplos variables de texto
 
@@ -99,10 +103,10 @@ def ej3():
     print('Ingrese palabra 3:')
     palabra_3 = str(input())
 
-
     # De cada palabra debe tomar la primera letra y armar el acrónimo
     # Ejemplo: Alumbrado, barrido y limpieza --> ABL
     # Imprimir el resultado en pantalla
+
 
 def ej4():
     # Ejemplos variables de texto
@@ -125,4 +129,3 @@ if __name__ == '__main__':
     #ej2()
     #ej3()
     #ej4()
-
