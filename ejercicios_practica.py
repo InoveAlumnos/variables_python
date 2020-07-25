@@ -18,7 +18,7 @@ __version__ = "1.2"
 
 def ej1():
     # Ejercicios de práctica con números
-
+    print('Nuestra primera calculadora')
     '''
     Realice un calculadora, se ingresará por línea de comando dos
     números reales y se deberá calcular todas las operaciones entre ellos:
@@ -37,8 +37,7 @@ def ej1():
 
 
 def ej2():
-    # Ejercicios de práctica numérica y cadenas
-
+    print('Ejercicios de práctica numérica y cadenas')
     '''
     Realice un programa que consulte por consola:
     - El nombre completo de la persona
@@ -59,7 +58,7 @@ def ej2():
 
 
 def ej3():
-    # Ejercicios de práctica con cadenas
+    print('Ejercicios de práctica con cadenas')
 
     '''
     Realice un programa que determine cual sería el apellido de una persona
@@ -94,7 +93,7 @@ def ej3():
 
 def ej4():
     # Ejercicios de práctica con cadenas
-
+    print('Comencemos a ponernos serios')
     '''
     Realice un programa que determine si una persona_2
     es pariente de la persona_1
@@ -127,7 +126,7 @@ def ej4():
 
 def ej5():
     # Ejercicios de práctica con cadenas
-
+    print('Ahora si! buena suerte!')
     '''
     Realice un programa que reciba por consola su nombre completo
     e imprima en pantalla su nombre en los siguientes formatos:
@@ -150,10 +149,11 @@ def ej5():
     Cualquier duda con estos métodos pueden consultarla por el campus
     '''
 
+
 if __name__ == '__main__':
     print("Ejercicios de práctica")
     ej1()
-    #ej2()
-    #ej3()
-    #ej4()
-    #ej5()
+    # ej2()
+    # ej3()
+    # ej4()
+    # ej5()

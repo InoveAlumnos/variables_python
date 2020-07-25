@@ -31,7 +31,7 @@ def numbers():
     print('El resultado de restar %d y %d es %d' % (numero_1, numero_2, resta))
 
     # ¿Qué sucede si una variable no fue definida e intento imprimir su valor?
-    #print('El valor de numero es',numero)
+    # print('El valor de numero es',numero)
 
     # Ahora realizaremos ejemplos con números reales
     numero_3 = 3.0
@@ -93,10 +93,12 @@ def strings():
     direccion_3 = 'La Paz, Bolivia'
 
     # Ensayemos algunos casos de ejemplo con la primera direccion
-    es_direccion_argentina = 'Argentina' in direccion_1   # es_direccion_argentina es un resultado tipo Bool (True,False)
+    es_direccion_argentina = 'Argentina' in direccion_1
+    # es_direccion_argentina es un resultado tipo Bool (True,False)
     print(direccion_1, 'es una dirección Argentina?', es_direccion_argentina)
 
-    # Ahora ¿qué pasa si intentamos imprimir es_direccion_argentina como un resultado numérico?
+    # Ahora ¿qué pasa si intentamos imprimir es_direccion_argentina
+    # como un resultado numérico?
     print('%s es una dirección Argentina? %d' % (direccion_1, es_direccion_argentina))
 
     # ¿Cómo podemos hacer para imprimir True/False en vez de 1/0?
@@ -109,7 +111,8 @@ def strings():
 
     # ¿Qué pasa si realizo la operación al reves?
     es_direccion_argentina = direccion_2 in pais_objetivo
-    print(direccion_2, 'es una dirección Argentina?', es_direccion_argentina)  # Está claro que el orden de los factores importa
+    # Está claro que el orden de los factores importa:
+    print(direccion_2, 'es una dirección Argentina?', es_direccion_argentina)
 
     # Ya se imaginarán el resultado con la dirección 3
     es_direccion_argentina = pais_objetivo in direccion_3
@@ -120,13 +123,15 @@ def strings():
     argentina_len = len(pais_objetivo)
     print(pais_objetivo, 'tiene', argentina_len, 'caracteres')
 
-    # ¿Puedo acceder a cada uno de esos caracteres individualmente? Claro que si
+    # ¿Puedo acceder a cada uno de esos caracteres individualmente?
+    # Claro que si!
 
     # Accedo al caracter inicial, el índice siempre empieza an cero [0]
     caracter_inicial = pais_objetivo[0]
     print(caracter_inicial)
 
-    # Accedo al caracter final, si la palabra tiene 9 letras, el índice de la letra final será 8
+    # Accedo al caracter final, si la palabra tiene 9 letras,
+    # el índice de la letra final será 8
     caracter_final = pais_objetivo[8]
     caracter_final = pais_objetivo[argentina_len-1]  # len=9, len-1 = 8 [MÉTODO CORRECTO]
     caracter_final = pais_objetivo[-1]  # Índice negativo recorre la lista al reves [MÉTODO CORRECTO]
@@ -138,7 +143,8 @@ def strings():
 
     # Puedo acceder a una serie de caracteres todos juntos
     # Se especifica el intervalo de índices con ':' --> inicial:final
-    # El intervalo va desde le inicial inclusive hasta el anterior al marcado como el final
+    # El intervalo va desde le inicial inclusive hasta
+    # el anterior al marcado como el final
     sub_text = pais_objetivo[0:5]   # Obtendré los primeros 4 caracteres
     sub_text = pais_objetivo[:5]    # Obtendré los primeros 4 caracteres [MÉTODO CORRECTO]
     print(sub_text)
@@ -146,13 +152,17 @@ def strings():
     sub_text = pais_objetivo[2:9]   # Obtendré desde el tercer caracter hasta el 8
     print(sub_text)
 
-    sub_text = pais_objetivo[2:argentina_len]  # Obtendré desde el tercer caracter hasta el final
-    sub_text = pais_objetivo[2:len(pais_objetivo)]  # Obtendré desde el tercer caracter hasta el final
-    sub_text = pais_objetivo[2:]  # Obtendré desde el tercer caracter hasta el final [MÉTODO CORRECTO]
+    # Obtendré desde el tercer caracter hasta el final
+    sub_text = pais_objetivo[2:argentina_len]
+    # Obtendré desde el tercer caracter hasta el final
+    sub_text = pais_objetivo[2:len(pais_objetivo)]
+    # Obtendré desde el tercer caracter hasta el final [MÉTODO CORRECTO]
+    sub_text = pais_objetivo[2:]
     print(sub_text)
 
     # ¿Cómo puedo obtener un intervalo pero de a pasos de a 2 letras?
-    # Esto puede resultar muy confuso, recién se sacaremos provecho  en cursos avanzados
+    # Esto puede resultar muy confuso,
+    # recién le sacaremos provecho en cursos avanzados
     sub_text = pais_objetivo[0:argentina_len:2]
     print(sub_text)
 
@@ -161,7 +171,8 @@ def consola():
     # Ejemplos capturando información desde la consola
 
     # Comencemos a ingresar datos por medio de la consola
-    # Primero mostraremos en pantalla el dato deseado a ingresar y luego esperaremos por el
+    # Primero mostraremos en pantalla el dato deseado a ingresar
+    # y luego esperaremos por el
     print('Ingrese su nombre:')
     nombre = str(input())
     print('Nombre ingresado:', nombre)
@@ -178,6 +189,6 @@ def consola():
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    #numbers()
-    #strings()
-    #consola()
+    numbers()
+    strings()
+    consola()
