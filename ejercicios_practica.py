@@ -109,7 +109,8 @@ def ej4():
     - En caso de contenerlo, son parientes
     - Imprimir en pantalla el resultado
 
-    NOTA: Para extraer el apellido del nombre recomendamos usar el método "split"
+    NOTA: Para extraer el apellido del nombre recomendamos
+    usar el método "split"
     Mostraremos un ejemplo:
 
     direccion_completa = 'Monroe 2716'
@@ -141,7 +142,7 @@ def ej5():
     - capitalize
 
     Puede buscar en internet como usar en Python estos métodos.
-    Les dejamos un el siguiente link que posee casos de uso de algunos de ellos:
+    Les dejamos el siguiente link que posee casos de uso de algunos de ellos:
 
     Link de referencia:
     https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
