@@ -4,7 +4,7 @@ Tipos de variables [Python]
 Ejemplos de clase
 ---------------------------
 Autor: Inove Coding School
-Version: 1.2
+Version: 1.3
 
 Descripcion:
 Programa creado para mostrar ejemplos prácticos de los visto durante la clase
@@ -12,7 +12,7 @@ Programa creado para mostrar ejemplos prácticos de los visto durante la clase
 
 __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
-__version__ = "1.2"
+__version__ = "1.3"
 
 
 def numbers():
@@ -28,6 +28,9 @@ def numbers():
 
     # Imprimimos en consola el resultado con dos métodos distintos
     print('El resultado de restar', numero_1, 'y', numero_2, 'es', resta)
+
+    # Esta forma NO la utilizaremos, ya que la clase que viene veremos una forma
+    # más simple de poder armar un mensaje con formato
     print('El resultado de restar %d y %d es %d' % (numero_1, numero_2, resta))
 
     # ¿Qué sucede si una variable no fue definida e intento imprimir su valor?
@@ -45,8 +48,6 @@ def numbers():
 
     # Imprimimos en consola el resultado con dos métodos distintos
     print('El resultado de restar', numero_4, 'y', numero_3, 'es', resta)
-    print('El resultado de restar %f y %f es %f' % (numero_4, numero_3, resta))
-    print('El resultado de restar %.2f y %.2f es %.2f' % (numero_4, numero_3, resta))
 
     # Ahora realizaremos un ejemplo numérico mixto
 
@@ -85,7 +86,7 @@ def strings():
 
     # Duplicando el texto
     texto_duplicado = texto_1 * 2
-    print('Duplicar texto %s: %s' % (texto_1, texto_duplicado))
+    print('Duplicar texto', texto_1, ':', texto_duplicado)
 
     # Dada una serie de direcciones, queremos saber si son provincias Argentinas
     direccion_1 = 'Mendoza, Argentina'
@@ -96,13 +97,6 @@ def strings():
     es_direccion_argentina = 'Argentina' in direccion_1
     # es_direccion_argentina es un resultado tipo Bool (True,False)
     print(direccion_1, 'es una dirección Argentina?', es_direccion_argentina)
-
-    # Ahora ¿qué pasa si intentamos imprimir es_direccion_argentina
-    # como un resultado numérico?
-    print('%s es una dirección Argentina? %d' % (direccion_1, es_direccion_argentina))
-
-    # ¿Cómo podemos hacer para imprimir True/False en vez de 1/0?
-    print('%s es una dirección Argentina? %r' % (direccion_1, es_direccion_argentina))
 
     # Ensayemos con la dirección 2, pero ahora utilizando puras variables
     pais_objetivo = 'Argentina'
@@ -138,8 +132,9 @@ def strings():
     print(caracter_final)
 
     # Puedo acceder a todos los caracteres individualmente
-    print('%s,%s,%s,%s,%s' % (pais_objetivo[0], pais_objetivo[1], pais_objetivo[2],
-                              pais_objetivo[3], pais_objetivo[4]))
+    print(pais_objetivo[0], pais_objetivo[1], pais_objetivo[2],
+          pais_objetivo[3], pais_objetivo[4]
+          )
 
     # Puedo acceder a una serie de caracteres todos juntos
     # Se especifica el intervalo de índices con ':' --> inicial:final
@@ -183,9 +178,8 @@ def consola():
 
     print('Ingrese su altura en metros:')
     altura = float(input())
-    print('Edad ingresada:', altura)
+    print('Altura ingresada:', altura)
 
-    print('La altura ingresada es de %s' % str(altura))
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
