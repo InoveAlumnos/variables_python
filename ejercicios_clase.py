@@ -4,7 +4,7 @@ Tipos de variables [Python]
 Ejercicios de clase
 ---------------------------
 Autor: Inove Coding School
-Version: 1.3
+Version: 1.4
 
 Descripcion:
 Programa creado para poner a prueba los conocimientos
@@ -13,13 +13,31 @@ adquiridos durante la clase
 
 __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
-__version__ = "1.3"
-
+__version__ = "1.4"
 
 def ej1():
     # Ejercicios de práctica numérica
+    numero_1 = 5
+    numero_2 = 7
+
+    # Realizar la suma de las dos variables
+    # numero_1 y numero_2
+    # Almacenar el valor de la suma en una variable
+    # ej:
+    # operacion = .....
+
+    # Imprimir en pantalla el resultado de la suma
+    # print(....)
+
+    # Repita el procedimiento para realizar la resta
+
+
+def ej2():
+    # Ejercicios de práctica numérica
 
     # Operadores con números decimales
+    # Ahora los valores a operar deben ser ingresados por
+    # consola con la función "input" como se ve a continuación
     print('Ingrese el primer número decimal a operar:')
     numero_1 = int(input())
 
@@ -43,7 +61,7 @@ def ej1():
     # Multiplicación
 
 
-def ej2():
+def ej3():
     # Ejemplos variables de texto
 
     # Ingrese primero su nombre y luego su apellido
@@ -62,7 +80,7 @@ def ej2():
     # Imprimir la cantidad de letras que posee su nombre completo
 
 
-def ej3():
+def ej4():
     # Ejemplos variables de texto
 
     # Ingrese tres palabras y arme un acrónimo con ellas
@@ -81,7 +99,7 @@ def ej3():
     # Imprimir el resultado en pantalla
 
 
-def ej4():
+def ej5():
     # Ejemplos variables de texto
 
     # Ingrese dos palabras y arme combinaciones con ella
@@ -103,3 +121,4 @@ if __name__ == '__main__':
     # ej2()
     # ej3()
     # ej4()
+    # ej5()
