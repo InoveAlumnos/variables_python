@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 '''
 Tipos de variables [Python]
-Ejercicios de clase
+Ejercicios de práctica
 ---------------------------
 Autor: Inove Coding School
 Version: 1.4
