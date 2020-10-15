@@ -140,8 +140,8 @@ def strings():
     # Se especifica el intervalo de índices con ':' --> inicial:final
     # El intervalo va desde le inicial inclusive hasta
     # el anterior al marcado como el final
-    sub_text = pais_objetivo[0:5]   # Obtendré los primeros 4 caracteres
-    sub_text = pais_objetivo[:5]    # Obtendré los primeros 4 caracteres [MÉTODO CORRECTO]
+    sub_text = pais_objetivo[0:5]   # Obtendré los primeros 5 caracteres
+    sub_text = pais_objetivo[:5]    # Obtendré los primeros 5 caracteres [MÉTODO CORRECTO]
     print(sub_text)
 
     sub_text = pais_objetivo[2:9]   # Obtendré desde el tercer caracter hasta el 8
