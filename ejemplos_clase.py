@@ -29,10 +29,6 @@ def numbers():
     # Imprimimos en consola el resultado con dos métodos distintos
     print('El resultado de restar', numero_1, 'y', numero_2, 'es', resta)
 
-    # Esta forma NO la utilizaremos, ya que la clase que viene veremos una forma
-    # más simple de poder armar un mensaje con formato
-    print('El resultado de restar %d y %d es %d' % (numero_1, numero_2, resta))
-
     # ¿Qué sucede si una variable no fue definida e intento imprimir su valor?
     # print('El valor de numero es',numero)
 
@@ -88,80 +84,7 @@ def strings():
     texto_duplicado = texto_1 * 2
     print('Duplicar texto', texto_1, ':', texto_duplicado)
 
-    # Dada una serie de direcciones, queremos saber si son provincias Argentinas
-    direccion_1 = 'Mendoza, Argentina'
-    direccion_2 = 'Córdoba, Argentina'
-    direccion_3 = 'La Paz, Bolivia'
-
-    # Ensayemos algunos casos de ejemplo con la primera direccion
-    es_direccion_argentina = 'Argentina' in direccion_1
-    # es_direccion_argentina es un resultado tipo Bool (True,False)
-    print(direccion_1, 'es una dirección Argentina?', es_direccion_argentina)
-
-    # Ensayemos con la dirección 2, pero ahora utilizando puras variables
-    pais_objetivo = 'Argentina'
-    es_direccion_argentina = pais_objetivo in direccion_2
-    print(direccion_2, 'es una dirección Argentina?', es_direccion_argentina)
-
-    # ¿Qué pasa si realizo la operación al reves?
-    es_direccion_argentina = direccion_2 in pais_objetivo
-    # Está claro que el orden de los factores importa:
-    print(direccion_2, 'es una dirección Argentina?', es_direccion_argentina)
-
-    # Ya se imaginarán el resultado con la dirección 3
-    es_direccion_argentina = pais_objetivo in direccion_3
-    print(direccion_3, 'es una dirección Argentina?', es_direccion_argentina)
-
-    # Una cadena de texto (string) está compuesta de Nº caracteres
-    # ¿Cuántos caracteres tiene el Argentina?
-    argentina_len = len(pais_objetivo)
-    print(pais_objetivo, 'tiene', argentina_len, 'caracteres')
-
-    # ¿Puedo acceder a cada uno de esos caracteres individualmente?
-    # Claro que si!
-
-    # Accedo al caracter inicial, el índice siempre empieza an cero [0]
-    caracter_inicial = pais_objetivo[0]
-    print(caracter_inicial)
-
-    # Accedo al caracter final, si la palabra tiene 9 letras,
-    # el índice de la letra final será 8
-    caracter_final = pais_objetivo[8]
-    caracter_final = pais_objetivo[argentina_len-1]  # len=9, len-1 = 8 [MÉTODO CORRECTO]
-    caracter_final = pais_objetivo[-1]  # Índice negativo recorre la lista al reves [MÉTODO CORRECTO]
-    print(caracter_final)
-
-    # Puedo acceder a todos los caracteres individualmente
-    print(pais_objetivo[0], pais_objetivo[1], pais_objetivo[2],
-          pais_objetivo[3], pais_objetivo[4]
-          )
-
-    # Puedo acceder a una serie de caracteres todos juntos
-    # Se especifica el intervalo de índices con ':' --> inicial:final
-    # El intervalo va desde le inicial inclusive hasta
-    # el anterior al marcado como el final
-    sub_text = pais_objetivo[0:5]   # Obtendré los primeros 5 caracteres
-    sub_text = pais_objetivo[:5]    # Obtendré los primeros 5 caracteres [MÉTODO CORRECTO]
-    print(sub_text)
-
-    sub_text = pais_objetivo[2:9]   # Obtendré desde el tercer caracter hasta el 8
-    print(sub_text)
-
-    # Obtendré desde el tercer caracter hasta el final
-    sub_text = pais_objetivo[2:argentina_len]
-    # Obtendré desde el tercer caracter hasta el final
-    sub_text = pais_objetivo[2:len(pais_objetivo)]
-    # Obtendré desde el tercer caracter hasta el final [MÉTODO CORRECTO]
-    sub_text = pais_objetivo[2:]
-    print(sub_text)
-
-    # ¿Cómo puedo obtener un intervalo pero de a pasos de a 2 letras?
-    # Esto puede resultar muy confuso,
-    # recién le sacaremos provecho en cursos avanzados
-    sub_text = pais_objetivo[0:argentina_len:2]
-    print(sub_text)
-
-
+ 
 def consola():
     # Ejemplos capturando información desde la consola
 
@@ -181,8 +104,55 @@ def consola():
     print('Altura ingresada:', altura)
 
 
+def operador_corchetes():
+    # Una cadena de texto (string) está compuesta de Nº caracteres
+    # ¿Cuántos caracteres tiene el Argentina?
+    pais = 'Argentina'
+    argentina_len = len(pais)
+    print(pais, 'tiene', argentina_len, 'caracteres')
+
+    # ¿Puedo acceder a cada uno de esos caracteres individualmente?
+    # Claro que si!
+
+    # Accedo al caracter inicial, el índice siempre empieza an cero [0]
+    caracter_inicial = pais[0]
+    print(caracter_inicial)
+
+    # Accedo al caracter final, si la palabra tiene 9 letras,
+    # el índice de la letra final será 8
+    caracter_final = pais[8]
+    caracter_final = pais[argentina_len-1]  # len=9, len-1 = 8 [MÉTODO CORRECTO]
+    caracter_final = pais[-1]  # Índice negativo recorre la lista al reves [MÉTODO CORRECTO]
+    print(caracter_final)
+
+    # Puedo acceder a todos los caracteres individualmente
+    print(pais[0], pais[1], pais[2],
+          pais[3], pais[4]
+          )
+
+    # Puedo acceder a una serie de caracteres todos juntos
+    # Se especifica el intervalo de índices con ':' --> inicial:final
+    # El intervalo va desde le inicial inclusive hasta
+    # el anterior al marcado como el final
+    sub_text = pais[0:5]   # Obtendré los primeros 5 caracteres
+    sub_text = pais[:5]    # Obtendré los primeros 5 caracteres [MÉTODO CORRECTO]
+    print(sub_text)
+
+    sub_text = pais[2:9]   # Obtendré desde el tercer caracter hasta el 8
+    print(sub_text)
+
+    # Obtendré desde el tercer caracter hasta el final
+    sub_text = pais[2:argentina_len]
+    # Obtendré desde el tercer caracter hasta el final
+    sub_text = pais[2:len(pais)]
+    # Obtendré desde el tercer caracter hasta el final [MÉTODO CORRECTO]
+    sub_text = pais[2:]
+    print(sub_text)
+
+
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     numbers()
     strings()
     consola()
+    operador_corchetes()

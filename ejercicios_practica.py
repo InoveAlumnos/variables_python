@@ -4,7 +4,7 @@ Tipos de variables [Python]
 Ejercicios de práctica
 ---------------------------
 Autor: Inove Coding School
-Version: 1.4
+Version: 1.5
 
 Descripcion:
 Programa creado para poner a prueba los conocimientos
@@ -13,7 +13,7 @@ adquiridos durante la clase
 
 __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
-__version__ = "1.4"
+__version__ = "1.5"
 
 def ej1():
     # Ejercicios de práctica numérica
@@ -35,7 +35,6 @@ def ej1():
 def ej2():
     # Ejercicios de práctica numérica
 
-    # Operadores con números decimales
     # Ahora los valores a operar deben ser ingresados por
     # consola con la función "input" como se ve a continuación
     print('Ingrese el primer número decimal a operar:')
@@ -51,6 +50,7 @@ def ej2():
     # numero_1, numero_2
     # Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
     # El resultado de sumar 4 y 2 es 6
+    # NOTA: No coloque usted los nùmeros y resultados, use las variables
 
     # Suma
 
