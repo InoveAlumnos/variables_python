@@ -2,7 +2,7 @@
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
-# Version: 1.5
+# Version: 2.0
 
 # IMPORTANTE: NO borrar los comentarios
 # que aparecen en verde con el hashtag "#"

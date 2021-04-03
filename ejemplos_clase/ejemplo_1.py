@@ -2,7 +2,7 @@
 # Ejemplos de clase
 
 # Autor: Inove Coding School
-# Version: 1.3
+# Version: 2.0
 
 # Ejemplos varialbles numéricas
 numero_1 = 2

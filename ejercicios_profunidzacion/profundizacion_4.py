@@ -2,7 +2,7 @@
 # Ejercicios de profundización
 
 # Autor: Inove Coding School
-# Version: 1.3
+# Version: 1.4
 
 # NOTA: 
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
