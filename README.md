@@ -4,7 +4,7 @@ info@inove.com.ar\
 Web: [Inove](http://inove.com.ar)
 
 # Tipos de variables! [Python]
-En este repositorio encontrarán los siguiente archivos:
+En este repositorio encontrarán las siguientes carpetas:
 
 __Ejemplos que el profesor mostrará en clase__\
 ejemplos_clase/
