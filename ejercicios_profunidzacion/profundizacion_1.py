@@ -13,7 +13,6 @@
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
 # Ejercicios de práctica con números
-# ¡Nuestra primera calculadora!
 '''
 Enunciado:
 Realice un calculadora, se ingresará por línea de comando dos
@@ -30,4 +29,5 @@ E) Exponente/Potencia
   ej: La suma entre 4.2 y 6.5 es 10.7
 '''
 
+print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio

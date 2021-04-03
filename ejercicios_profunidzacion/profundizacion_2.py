@@ -31,4 +31,5 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
   entienda de que se está hablando.
 '''
 
+print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio

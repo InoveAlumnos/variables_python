@@ -13,7 +13,6 @@
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
 # Ejercicios de práctica con cadenas
-# Ahora si! buena suerte.
 '''
 Enunciado:
 Realice un programa que reciba por consola su nombre completo
@@ -37,4 +36,5 @@ https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
 Cualquier duda con estos métodos pueden consultarla por el campus
 '''
 
+print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio

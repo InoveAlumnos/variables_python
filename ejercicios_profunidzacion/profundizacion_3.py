@@ -43,4 +43,5 @@ https://www.pythonforbeginners.com/dictionary/python-split
 Cualquier duda con el método split pueden consultarla por el campus
 '''
 
+print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio

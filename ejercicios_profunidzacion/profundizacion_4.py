@@ -13,7 +13,6 @@
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
 # Ejercicios de práctica con cadenas
-# Comencemos a ponernos serios
 '''
 Enunciado:
 Realice un programa que determine si una persona_2
@@ -45,4 +44,5 @@ https://www.pythonforbeginners.com/dictionary/python-split
 Cualquier duda con el método split pueden consultarla por el campus
 '''
 
+print('Comencemos a ponernos serios')
 # Empezar aquí la resolución del ejercicio
