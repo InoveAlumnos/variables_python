@@ -18,6 +18,7 @@ print('Ingrese por consola su apellido/s:')
 apellido = str(input())
 
 # Imprima su nombre completo
+print('nombre y apellido ingresado:', nombre, apellido)
 
 # Almacenar su nombre completo en una variable
 # nombre_completo = .....
