@@ -12,36 +12,29 @@
 
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
-# Ejercicios de práctica numérica y cadenas
+# Ejercicios de práctica con cadenas
 '''
 Enunciado:
-Realice un programa que determine cual sería el apellido de una persona
-si se ingresaran los dos nombres completos de sus padres.
-Dicha persona deberá tener los apellidos de ambos padres
+Realice un programa que reciba por consola su nombre completo
+e imprima en pantalla su nombre en los siguientes formatos:
+- Todas las letras en minúsculas
+- Todas las letras en mayúsculas
+- Solo la primera letra del nombre en mayúscula
 
-- Primero el programa debe consultar el nombre completo del padre_1
-- Luego el programa debe consultar el nombre completo del padre_2
-- Luego debe consultar el nombre del hijo/a
-- Debe extraer los apellidos de los padres
-- Luego formar el nombre completo del hijo/a utilizando los apellidos
-  de sus padres
-  y el nombre ingresado de dicha persona
-- Imprimir en pantalla el resultado
+NOTA: Para realizar este ejercicio deberá usar los siguientes métodos
+de strings:
+- lower
+- upper
+- capitalize
 
-NOTA: Para extraer el apellido del nombre completo recomendamos usar
-el método "split"
-Mostraremos un ejemplo:
+Puede buscar en internet como usar en Python estos métodos.
+Les dejamos el siguiente link que posee casos de uso de algunos de ellos:
 
-direccion_completa = 'Monroe 2716'
-calle, altura = direccion_completa.split(' ')
+Link de referencia:
+https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
 
-Les dejo por su cuenta a que busquen un poco más acerca de este método
-que seguramente utilizarán mucho de acá en adelante.
-Les dejamos un link con algunos ejemplos más:
-https://www.pythonforbeginners.com/dictionary/python-split
-
-Cualquier duda con el método split pueden consultarla por el campus
+Cualquier duda con estos métodos pueden consultarla por el campus
 '''
 
-print('Jugando con texto')
+print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
