@@ -4,7 +4,7 @@
 # Autor: Inove Coding School
 # Version: 2.0
 
-# Ejemplos varialbles numéricas
+# Ejemplos varialbles numéricas (números enteros --> int)
 numero_1 = 2
 numero_2 = 4
 
@@ -20,7 +20,7 @@ print('El resultado de restar', numero_1, 'y', numero_2, 'es', resta)
 # ¿Qué sucede si una variable no fue definida e intento imprimir su valor?
 # print('El valor de numero es',numero)
 
-# Ahora realizaremos ejemplos con números reales
+# Ahora realizaremos ejemplos con números decimales --> float
 numero_3 = 3.0
 numero_4 = 4.5
 
@@ -44,6 +44,6 @@ resta = numero_3 - numero_1  # Operamos la resta
 # Imprimimos en consola el resultado con dos métodos distintos
 print('El resultado de restar', numero_3, 'y', numero_1, 'es', resta)
 
-# Ensayo de división de números decimales
+# Ensayo de división de números enteros
 division = numero_1 / numero_2
 print('El resultado dividir', numero_1, 'y', numero_2, 'es', division)
