@@ -10,16 +10,24 @@
 # Ejemplos variables de texto
 
 # Ingrese tres palabras y arme un acrónimo con ellas
-# Si desea puede modificar el código para ingresar más palabras
-print('Ingrese palabra 1:')
-palabra_1 = str(input())
+palabra_1 = str(input('Ingrese palabra 1:'))
 
-print('Ingrese palabra 2:')
-palabra_2 = str(input())
+palabra_2 = str(input('Ingrese palabra 2:'))
 
-print('Ingrese palabra 3:')
-palabra_3 = str(input())
+palabra_3 = str(input('Ingrese palabra 3:'))
 
-# De cada palabra debe tomar la primera letra y armar el acrónimo
-# Ejemplo: Alumbrado, barrido y limpieza --> ABL
-# Imprimir el resultado en pantalla
+# Objetivo:
+# De cada palabra ingresada se utilizará
+# la primera letra para armar un acrónimo, por ejemplo:
+# Si las palabras ingresadas fueran:
+# --> Alumbrado, barrido y limpieza
+# El acrónimo resultado es --> abl
+
+# Alumno:
+# Crear una variable llamada acronimo donde se 
+# almacene la primera letra de cada palabra
+# en el orden corespondiente
+
+
+
+# Imprimir la variable acronimo en pantalla

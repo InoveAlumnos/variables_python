@@ -6,21 +6,21 @@
 
 # Ejemplos capturando información desde la consola
 
-# Comencemos a ingresar datos por medio de la consola
-# Primero mostraremos en pantalla el dato deseado a ingresar
-# y luego esperaremos por el
-print('Ingrese su nombre:')
-nombre = str(input())
+# - Comencemos a ingresar datos por medio de la consola
+# Input nos permite mostrar en pantalla un texto
+# y luego la consola se queda esperado por un dato
+# a ingresar por nosotros
+# - En este caso ingresaremos texto, por lo que
+# transformaremos el dato ingresado por consola a texto --> str
+nombre = str(input('Ingrese su nombre:'))
 print('Nombre ingresado:', nombre)
 
-print('Ingrese cuantos años tiene:')
 # Utilizamos "int" cuando lo que se desea ingresar
 # es un número entero (sin coma)
-edad = int(input())
+edad = int(input('Ingrese cuantos años tiene:'))
 print('Edad ingresada:', edad)
 
-print('Ingrese su altura en metros:')
-# Utilizamos "int" cuando lo que se desea ingresar
+# Utilizamos "float" cuando lo que se desea ingresar
 # es un número decimal (con coma)
-altura = float(input())
+altura = float(input('Ingrese su altura en metros:'))
 print('Altura ingresada:', altura)

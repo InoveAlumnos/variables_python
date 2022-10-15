@@ -2,12 +2,12 @@
 # Ejemplos de clase
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # Ejemplos con el operador corchetes
 
 # Una cadena de texto (string) está compuesta de Nº caracteres
-# ¿Cuántos caracteres tiene el Argentina?
+# ¿Cuántos caracteres tiene la palabra Argentina?
 pais = 'Argentina'
 argentina_len = len(pais)
 print(pais, 'tiene', argentina_len, 'caracteres')

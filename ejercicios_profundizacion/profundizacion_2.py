@@ -2,7 +2,7 @@
 # Ejercicios de profundización
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # NOTA: 
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
@@ -15,20 +15,42 @@
 # Ejercicios de práctica numérica y cadenas
 '''
 Enunciado:
-Realice un programa que consulte por consola:
-- El nombre completo de la persona
-- El DNI de la persona
-- La edad de la persona
-- La altura de la persona
+El objetivo es realizar un programa que consulte por consola:
+- El nombre completo de una persona
+- El número de identificación de una persona
+- La edad de una persona
+- La altura de una persona
 
-Finalmente el programa debe imprimir dos líneas de texto por separado
-- En una línea imprimir el nombre completo y el DNI, aclarando de que
-  campo se trata cada uno
-        Ej: Nombre Completo: Nombre Apellido , DNI:35205070,
-- En la segunda línea se debe imprimir el nombre completo, edad y
-  altura de la persona
-  Nuevamente debe aclarar el campo de cada uno, para el que lo lea
-  entienda de que se está hablando.
+Finalmente el programa debe imprimir los contenidos
+de las variables generadas durante el programa en el siguiente
+formato, dos líneas de texto por separado (dos print separados):
+- Un print debe imprimir el nombre completo y el DNI.
+        Ej: Juan Carlos 35205070
+- El segundo print debe imprimir la edad y la altura.
+        Ej: 38 1.70
+
+Alumno:
+- Crear una una variable llamada nombre_completo
+  para almacenar el nombre completo que usted
+  debe ingresar por consola con la función input.
+  Recuerde en este caso utilizar el input junto a str.
+
+- Crear una una variable llamada identificacion
+  para almacenar el número de identificación que usted
+  debe ingresar por consola con la función input.
+  Recuerde en este caso utilizar el input junto a int.
+  IMPORTANTE: Solo ingresar números, sin puntos o guiones
+
+- Crear una una variable llamada edad
+  para almacenar la edad que usted
+  debe ingresar por consola con la función input.
+  Recuerde en este caso utilizar el input junto a int.
+
+- Crear una una variable llamada altura
+  para almacenar la altura que usted
+  debe ingresar por consola con la función input.
+  Recuerde en este caso utilizar el input junto a float.
+
 '''
 
 print('Sistema de ingreso de datos')

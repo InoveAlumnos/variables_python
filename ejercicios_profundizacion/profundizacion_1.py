@@ -2,7 +2,7 @@
 # Ejercicios de profundización
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # NOTA: 
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
@@ -15,18 +15,33 @@
 # Ejercicios de práctica con números
 '''
 Enunciado:
-Realice un calculadora, se ingresará por línea de comando dos
-números reales y se deberá calcular todas las operaciones entre ellos:
-A) Suma
-B) Resta
-C) Multiplicación
-D) División
-E) Exponente/Potencia
+- El objetivo será realizar un calculadora,
+- Se ingresará por consola dos números decimales (float)
+- Se deberá calcular todas las operaciones entre ellos:
+A) Suma  --> primero número más el segundo    
+B) Resta --> primero número menos el segundo
+C) Multiplicación --> primero número por el segundo
+D) División --> primero número dividido el segundo
+E) Exponente/Potencia --> primero número exponente el segundo
 
-- Para todos los casos se debe imprimir en pantalla el resultado aclarando
-  la operación realizada en cada caso y con que números
-  se ha realizado la operación
-  ej: La suma entre 4.2 y 6.5 es 10.7
+- Para todos los casos se debe imprimir en pantalla
+  el resultado de la operación realizada
+
+Alumno:
+- Crear una una variable llamada numero_1
+  para almacenar el primer número decimal que usted
+  debe ingresar por consola con la función input
+
+- Crear una una variable llamada numero_2
+  para almacenar el primer número decimal que usted
+  debe ingresar por consola con la función input
+
+- Almacenar el valor de cada operación realizada en las
+  variables que usted creará con los siguientes nombres:
+  suma, resta, multiplicacion, division, potencia
+
+- Al final imprimir todos los resultados almacenados
+  en esas variables
 '''
 
 print('¡Nuestra primera calculadora!')

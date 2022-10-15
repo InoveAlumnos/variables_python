@@ -2,7 +2,7 @@
 # Ejercicios de profundización
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # NOTA: 
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
@@ -15,17 +15,19 @@
 # Ejercicios de práctica numérica y cadenas
 '''
 Enunciado:
-Realice un programa que determine cual sería el apellido de una persona
-al ingresara los dos nombres completos de sus padres.
+El objetivo es realizar un programa que determine
+cual sería el apellido de una persona
+al ingresara los dos nombres completos de sus padres/madres/tutores.
+(un solo nombre y un solo apellido en cada caso)
 En definitiva se solicita crear una variable nueva que reuna
-los apellidos.
+los dos apellidos.
 
-- Primero el programa debe consultar el nombre completo del padre_1
-- Luego el programa debe consultar el nombre completo del padre_2
-- Luego debe consultar el nombre del hijo/a
+- Consultar e ingresar por consola el primer nombre completo
+- Consultar e ingresar por consola el segundo nombre completo
+- Luego debe consultar solo nombre del hijo/a
 - Debe extraer los apellidos de los padres (ver la nota al final)
 - Luego formar el nombre completo del hijo/a utilizando los apellidos
-  de sus padres y el nombre ingresado de dicha persona
+  de sus padres/madres/tutores y el nombre del hijo/a
 - Imprimir en pantalla el resultado
 
 NOTA: Para extraer el apellido del nombre completo recomendamos usar
@@ -35,12 +37,46 @@ Mostraremos un ejemplo:
 direccion_completa = 'Monroe 2716'
 calle, altura = direccion_completa.split(' ')
 
-Les dejo por su cuenta a que busquen un poco más acerca de este método
-que seguramente utilizarán mucho de acá en adelante.
+Les dejamos por su cuenta a que busquen un poco más
+acerca de este método llamado split, que seguramente
+utilizarán mucho de acá en adelante.
 Les dejamos un link con algunos ejemplos más:
 https://www.pythonforbeginners.com/dictionary/python-split
 
-Cualquier duda con el método split pueden consultarla por el campus
+¡Cualquier duda con el método split pueden consultarnos!
+
+Alumno:
+- Crear una una variable llamada nombre_completo_1
+  para almacenar el primer nombre completo que usted
+  debe ingresar por consola con la función input.
+  Imprimir en consola el contenido de esta variable
+
+- Crear una una variable llamada nombre_completo_2
+  para almacenar el primer nombre completo que usted
+  debe ingresar por consola con la función input.
+  Imprimir en consola el contenido de esta variable
+
+- Crear una una variable llamada nombre
+  para almacenar el nombre del hijo/a que usted
+  debe ingresar por consola con la función input.
+  Imprimir en consola el contenido de esta variable
+
+- Cuando utilice la función split para dividir
+  el nombre_completo_1, almacene los resultados
+  en las variables llamadas nombre_1 y apellido_1
+  Imprimir en consola el contenido de estas variables
+
+- Cuando utilice la función split para dividir
+  el nombre_completo_2, almacene los resultados
+  en las variables llamadas nombre_2 y apellido_2
+  Imprimir en consola el contenido de estas variables
+
+- Crear una una variable llamada hijo
+  para almacenar el nombre del hijo/a contenido en
+  la variable nombre sumando/concatenando
+  los apellidos almaecnados en apellido_1 y apellido_2
+  Imprimir en consola el contenido de esta variable
+
 '''
 
 print('Jugando con texto')
