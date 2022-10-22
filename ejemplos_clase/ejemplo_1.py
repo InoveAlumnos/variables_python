@@ -2,7 +2,7 @@
 # Ejemplos de clase
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # Ejemplos varialbles numéricas (números enteros --> int)
 # 1- Crearemos una variable llamada numero_1 que almacene

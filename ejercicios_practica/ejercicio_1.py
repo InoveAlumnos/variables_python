@@ -12,6 +12,7 @@
 numero_1 = 5
 numero_2 = 7
 
+# Alumno:
 # Realizar la suma de las dos variables
 # Crear una variable llamada suma donde se 
 # almacene el valor de la suma de las variable numero_1 y numero_2
