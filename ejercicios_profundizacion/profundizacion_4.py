@@ -1,3 +1,4 @@
+# CODE:9
 # Tipos de variables [Python]
 # Ejercicios de profundización
 

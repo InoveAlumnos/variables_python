@@ -1,3 +1,4 @@
+# CODE:3
 # Tipos de variables [Python]
 # Ejercicios de práctica
 

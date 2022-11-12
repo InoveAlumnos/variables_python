@@ -1,3 +1,4 @@
+# CODE:8
 # Tipos de variables [Python]
 # Ejercicios de profundización
 
