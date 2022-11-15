@@ -18,7 +18,7 @@
 Enunciado:
 El objetivo es realizar un programa que consulte por consola:
 - El nombre completo de una persona
-- El número de identificación de una persona
+- El documento de identificación de una persona
 - La edad de una persona
 - La altura de una persona
 
@@ -26,7 +26,7 @@ Finalmente el programa debe imprimir los contenidos
 de las variables generadas durante el programa en el siguiente
 formato, dos líneas de texto por separado (dos print separados):
 - Un print debe imprimir el nombre completo y el DNI.
-        Ej: Juan Carlos 35205070
+        Ej: Juan Carlos 35.205.070
 - El segundo print debe imprimir la edad y la altura.
         Ej: 38 1.70
 
@@ -37,10 +37,9 @@ Alumno:
   Recuerde en este caso utilizar el input junto a str.
 
 - Crear una una variable llamada identificacion
-  para almacenar el número de identificación que usted
+  para almacenar el documento de identificación que usted
   debe ingresar por consola con la función input.
-  Recuerde en este caso utilizar el input junto a int.
-  IMPORTANTE: Solo ingresar números, sin puntos o guiones
+  Recuerde en este caso utilizar el input junto a str.
 
 - Crear una una variable llamada edad
   para almacenar la edad que usted
